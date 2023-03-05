@@ -46,14 +46,14 @@ graphical models, Bayesian networks are particularly powerful
 and widely used.
 A Bayesian network is a graphical model that encodes the
 probability of a set of random variables. The model consists
-of a directed acyclic graph (DAG), where each node represents a random variable, and arrows represent the statistical
+of a directed acyclic graph (DAG), where each node represents a random variable, and arrows represent the statistical
 relationships between variables. Bayesian networks can be
 used to generate predictions from data, infer the probabilistic
 relationships between variables, and learn the structure and
 conditional probability tables (CPTs) from data.
 One of the most popular applications of Bayesian networks
 is in classification tasks, where the goal is to assign a given
-data point to a pre-defined class. Naive Bayes is a classification algorithm based on Bayesian networks that assumes
+data point to a pre-defined class. Naive Bayes is a classification algorithm based on Bayesian networks that assumes
 conditional independence between the features of a given data
 point, given the class label. While this simplifies the model
 and makes it easier to learn from data, it can limit its accuracy
